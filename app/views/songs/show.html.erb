@@ -1,0 +1,4 @@
+<h2><%= @song.title %></h2>
+<%= form_for @song, method: "delete" do |f| %>
+  <%= f.submit value: "delete" %>
+<% end %>
